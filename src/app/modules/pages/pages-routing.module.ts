@@ -7,7 +7,10 @@ import {PagesComponent} from './pages/pages.component';
 const routes: Routes = [
   {
     path: '', component: PagesComponent, children: [
-      { path: 'alunos', component: AlunoComponent }
+      {
+        path: 'alunos',
+        component: AlunoComponent
+      }
     ]
   }
 ];
