@@ -1,3 +1,4 @@
+import { ProfessorComponent } from './professor/professor.component';
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
@@ -10,7 +11,8 @@ import {LayoutModule} from '../layout/layout.module';
 @NgModule({
   declarations: [
     PagesComponent,
-    AlunoComponent
+    AlunoComponent,
+    ProfessorComponent
   ],
   imports: [
     CommonModule,

@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {SideNavComponent} from './side-nav/side-nav.component';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import {SideNavComponent} from './side-nav/side-nav.component';
     FooterComponent,
     SideNavComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
